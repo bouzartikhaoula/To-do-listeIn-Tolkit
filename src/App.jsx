@@ -4,7 +4,7 @@ import TodoItems from './components/TodoItems/TodoItems'
 import {useSelector} from "react-redux"
 import { Box, Container } from '@chakra-ui/react'
 const App = () => {
-  //hadi dakhlek l stor bah jib bayanat
+  //hadi dakhlek l stor bah jib bayanat men lidiclarithom fih
   const todolist=useSelector((state)=>state.todos.todoList)
   // console.log(todolist);
   
