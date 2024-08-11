@@ -23,9 +23,11 @@ const Input = () => {
     }
 
   return (
-    <form onSubmit={handelSubmit}>
-        <input type='text' value={input} onChange={(e)=>setInput(e.target.value)}/>
-        <button type='submit'>Add</button>
+    <form onSubmit={handelSubmit} style={{backgroundColor:"#f4f4f4", textAlign:"center", borderRadius:"10px"}}>
+        <input style={{margin:" 12px 12px 12px 0",padding:" 2px",
+    border:" 3px solid #eeeeee",borderRadius:"3px"}} type='text' value={input} onChange={(e)=>setInput(e.target.value)}/>
+        <button style={{padding:" 2px",
+    backgroundColor:"rgb(191 190 190)",borderRadius:"5px"}} type='submit'>Add</button>
     </form>
   )
 }

@@ -7,9 +7,9 @@ const handelChange=()=>{
     dispatch(setCheck(id))
 }
   return (
-    <div>
-      <input type='checkbox' id={id} checked={done} onChange={handelChange} />
-      <label htmlFor={id}>{title} </label>
+    <div style={{margin:"10px 0",borderRadius:"4px",width:"216px",backgroundColor:"#eeeeee"}}>
+      <input type='checkbox'  id={id} checked={done} onChange={handelChange}  />
+      <label htmlFor={id} >{title} </label>
       
     </div>
   );
